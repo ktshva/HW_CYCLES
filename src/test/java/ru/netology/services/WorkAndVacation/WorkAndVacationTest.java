@@ -1,20 +1,20 @@
 package ru.netology.services.WorkAndVacation;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 public class WorkAndVacationTest {
     @Test
-
     void vacation() {
 
         WorkAndVacation service = new WorkAndVacation();
 
         // подготавливаем данные:
-        int income = 10000;  // Доход
-        int expenses = 3000;  // Расходы
-        int threshold = 20000;  // Порог сбережений
+        int income = 100000;  // Доход
+        int expenses = 60000;  // Расходы
+        int threshold = 150000;  // Порог сбережений
 
         // вызываем целевой метод:
 
